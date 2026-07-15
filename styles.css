@@ -1,0 +1,173 @@
+CSS
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:'Inter',sans-serif;
+    color:#111827;
+    background:#ffffff;
+    line-height:1.6;
+}
+
+img{
+    max-width:100%;
+    display:block;
+}
+
+a{
+    text-decoration:none;
+}
+
+ul{
+    list-style:none;
+}
+
+.wrap{
+    width:min(1180px,92%);
+    margin:auto;
+}
+.topbar{
+    background:#0F172A;
+    color:#fff;
+    text-align:center;
+    padding:10px 0;
+    font-size:14px;
+}
+
+.nav{
+    background:#fff;
+    position:sticky;
+    top:0;
+    z-index:1000;
+    border-bottom:1px solid #eee;
+}
+
+.nav-inner{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 0;
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    font-size:24px;
+    font-weight:700;
+    color:#111827;
+}  
+
+.logo img{
+  width:120px;
+  height:auto;
+  display:black;
+}
+
+.menu{
+    display:flex;
+    gap:35px;
+}
+
+.menu a{
+    color:#555;
+    font-weight:500;
+    text-decoration:none;
+}
+
+.menu a:hover{
+    color:#111827;
+}
+
+.nav-actions{
+    display:flex;
+    align-items:center;
+    gap:20px;
+}
+
+.link{
+    color:#555;
+    text-decoration:non;
+}
+
+.cta{
+    background:#111827;
+    color:#fff;
+    padding:12px 24px;
+    border-radius:999px;
+    text-decoration:none;
+}
+
+.cta:hover{
+    background:#000;
+}
+
+.cta-outline{
+    background:transparent;
+    color:#111827;
+    border:1px solid #111827;
+}
+.cta-outline{
+    background:transparent;
+    color:#111827;
+    border:1px solid #111827;
+}
+
+L
+
+.hero{
+    padding:80px 0;
+}
+
+.hero-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:80px;
+    align-items:center;
+}
+
+.hero-copy h1{
+    font-size:50px;
+    line-height:1.05;
+    margin:20px 0;
+    font-weight:700;
+    max-width:520px;
+}
+
+.hero-copy p{
+    font-size:18px;
+    color:#555;
+    margin-bottom:30px;
+    max-width:520px;
+}
+
+.hero-buttons{
+    display:flex;
+    gap:15px;
+}
+
+.hero-image img{
+    width:100%;
+    max-width:620px;
+    margin:auto;
+    border-radius:18px;
+    box-shadow:0 25px 60px rgba(0,0,0,.15);
+    display:block;
+}
+
+.pill{
+    display:inline-block;
+    background:#eef2ff;
+    color:#4f46e5;
+    padding:8px 16px;
+    border-radius:999px;
+    font-size:14px;
+    font-weight:600;
+}
