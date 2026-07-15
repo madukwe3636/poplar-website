@@ -1,85 +1,94 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Puplar — Cross-border payments infrastructure</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a href="#" class="logo">
+      <img src="assets/logo-mark.svg" alt="Puplar" />
+    </a>
+    <nav class="main-nav">
+      <a href="#faqs">FAQs</a>
+      <a href="#contact">Contact</a>
+      <a href="#community">Community</a>
+      <a href="#docs">Documentation</a>
+      <a href="#products">Products</a>
+    </nav>
+    <div class="header-actions">
+      <a href="#login" class="login-link">Login</a>
+      <a href="#get-started" class="btn-primary">Get Started</a>
+    </div>
+  </header>
 
-        <title>puplar - Global payments infrastructure</title>
-        <meta name="description" content="the cross-border payments infrastructure for emerging and global businesses.">
-        <fonts>
-        <link rel="preconnect"
-        href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet"href=https://fonts.googleaspis.com/css2?family=DM+Sans:wght@400;500.600&family=work+sans:wght@400;500;600&display=swap">
-        <link rel="stylesheet" href="styles.css">
-        <link rel="icon" type="image/svg+xml" href="assets/logo-mark.svg">
-    </head>
-        <body>
-                <header class="nav">
-                    <div class="wrap nav-inner">
-                        <a href="#" claas="logo">
-                            <img src="assets/logo-mark.svg"alt="puplar logo">
-                            </a>
-                            <nav class="menu">
-                                <a href="#">FAQs</a> 
-                                <a href="#">content</a>
-                                <a href="#">community</a>
-                                <a href="#">Documentation</a>
-                                <a href="#">products</a>
-                                </nav>
-                    <div class="nav-actions">
-                            <a href="#" class="link">login</a>
+  <section class="hero">
+    <div class="hero-copy">
+      <h1>The cross-border payments infrastructure for emerging and global businesses.</h1>
+      <p>
+        A programmable system for collecting, holding, moving, and governing money
+        across borders, built for businesses operating in complex markets.
+      </p>
+      <form class="email-form" onsubmit="event.preventDefault;">
+        <input type="email" placeholder="Enter your email" required />
+        <button type="submit" class="btn-primary">Get Started →</button>
+      </form>
+    </div>
+    <div class="hero-image">
+      <img src="assets/metrics.png" alt="Puplar dashboard preview" />
+    </div>
+  </section>
 
-                            <a href="#" class="cta">Get Started</a>
-                     </div>
-                </header> 
-                   <section class="hero">
-                                        <div class="wrap hero-grid">
-                                            <div class="hero-copy">
-                                                <span class="pill">cross-border payments infrstructure
-                                                     <h1>the cross-borders payments infrastructure for emerging and global businesses</h1>
-                                                     <p> a programmable system for collecting, holding,moving and governing money across borders.</p>
-                                                     <div class="hero-buttons">
-                                                        <a href="#" class="cta">
-                                                            Get Started
-                                                        </a>
-                                                     <a href="#" class="cta cta-outline"> Documentation
+  <section class="core-solutions">
+    <h1>Core payment solutions designed for businesses</h1>
+    <p> 
+      Puplar is designed for global businesses and platforms that need reliable infrastructure for cross-border collections, managing balances,
+                                          and executing controlled money movement across borders.
+    </p>
+  </section>
+</body>
+</html>
+<section class="solutions">
+  <div class="solutions__grid">
+    <article class="solution-card">
+      <h3>Collections</h3>
+      <p>Receive funds through local and cross-border payment methods.</p>
+      <img src="assets/solution.png" alt="Collections dashboard" />
+    </article>
 
-                                                     </a>
+    <article class="solution-card">
+      <h3>Customers</h3>
+      <p>Model who money belongs to and who can act on it.</p>
+      <img src="assets/solution.png" alt="Customers dashboard" />
+    </article>
 
-                                                    </div>
-                                                </div>
-                                                <div class="hero-image">
-                                                <img src="assets/metrics.png"alt="Dashbord">
-                                            </div>
-                                        </div>
-                                        </section>
+    <article class="solution-card">
+      <h3>Virtual Accounts</h3>
+      <p>Account structures without banking complexity.</p>
+      <img src="assets/solution.png" alt="Virtual Accounts dashboard" />
+    </article>
 
+    <article class="solution-card">
+      <h3>Transactions</h3>
+      <p>A complete ledger of money movement.</p>
+      <img src="assets/solution.png" alt="Transactions dashboard" />
+    </article>
 
+    <article class="solution-card">
+      <h3>Payout & Settlements</h3>
+      <p>Move money out of the system, predictably.</p>
+      <img src="assets/solution.png" alt="Payouts dashboard" />
+    </article>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <article class="solution-card">
+      <h3>APIs Infrastructure</h3>
+      <p>Integrate money movement into your product.</p>
+      <img src="assets/solution.png" alt="APIs dashboard" />
+    </article>
+  </div>
+</section>
