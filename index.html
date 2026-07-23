@@ -1,94 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Puplar — Cross-border payments infrastructure</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css" />
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Puplar — Cross-border payments infrastructure</title>
+<meta name="description" content="A programmable system for collecting, holding, moving, and governing money across borders." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header class="site-header">
-    <a href="#" class="logo">
-      <img src="assets/logo-mark.svg" alt="Puplar" />
-    </a>
-    <nav class="main-nav">
+
+<header class="header">
+  <div class="header-inner">
+    <a href="index.html" class="logo"><span class="p">P</span>uplar</a>
+    <nav class="nav">
       <a href="#faqs">FAQs</a>
       <a href="#contact">Contact</a>
       <a href="#community">Community</a>
-      <a href="#docs">Documentation</a>
+      <a href="#documentation">Documentation</a>
       <a href="#products">Products</a>
     </nav>
     <div class="header-actions">
-      <a href="#login" class="login-link">Login</a>
-      <a href="#get-started" class="btn-primary">Get Started</a>
+      <a href="#" class="login-link">Login</a>
+      <a href="#" class="btn btn-primary">Get Started</a>
     </div>
-  </header>
+  </div>
+</header>
 
-  <section class="hero">
-    <div class="hero-copy">
+<main class="hero">
+  <div class="hero-grid">
+    <div>
       <h1>The cross-border payments infrastructure for emerging and global businesses.</h1>
-      <p>
-        A programmable system for collecting, holding, moving, and governing money
-        across borders, built for businesses operating in complex markets.
-      </p>
-      <form class="email-form" onsubmit="event.preventDefault;">
-        <input type="email" placeholder="Enter your email" required />
-        <button type="submit" class="btn-primary">Get Started →</button>
+      <p class="lead">A programmable system for collecting, holding, moving, and governing money across borders, built for businesses operating in complex markets.</p>
+      <form class="email-form" onsubmit="event.preventDefault()">
+        <input type="email" required placeholder="Enter your email" />
+        <button type="submit" class="btn btn-primary">Get Started →</button>
       </form>
     </div>
-    <div class="hero-image">
+    <div class="hero-img">
       <img src="assets/metrics.png" alt="Puplar dashboard preview" />
     </div>
-  </section>
+  </div>
+</main>
 
-  <section class="core-solutions">
-    <h1>Core payment solutions designed for businesses</h1>
-    <p> 
-      Puplar is designed for global businesses and platforms that need reliable infrastructure for cross-border collections, managing balances,
-                                          and executing controlled money movement across borders.
-    </p>
-  </section>
-</body>
-</html>
+<section class="solutions-intro">
+  <h2>Core payment solutions designed for businesses</h2>
+  <p>Puplar is designed for global businesses and platforms that need reliable infrastructure for cross-border collections, managing balances, and executing controlled money movement across borders.</p>
+</section>
+
 <section class="solutions">
-  <div class="solutions__grid">
-    <article class="solution-card">
-      <h3>Collections</h3>
-      <p>Receive funds through local and cross-border payment methods.</p>
-      <img src="assets/solution.png" alt="Collections dashboard" />
-    </article>
-
-    <article class="solution-card">
-      <h3>Customers</h3>
-      <p>Model who money belongs to and who can act on it.</p>
-      <img src="assets/solution.png" alt="Customers dashboard" />
-    </article>
-
-    <article class="solution-card">
-      <h3>Virtual Accounts</h3>
-      <p>Account structures without banking complexity.</p>
-      <img src="assets/solution.png" alt="Virtual Accounts dashboard" />
-    </article>
-
-    <article class="solution-card">
-      <h3>Transactions</h3>
-      <p>A complete ledger of money movement.</p>
-      <img src="assets/solution.png" alt="Transactions dashboard" />
-    </article>
-
-    <article class="solution-card">
-      <h3>Payout & Settlements</h3>
-      <p>Move money out of the system, predictably.</p>
-      <img src="assets/solution.png" alt="Payouts dashboard" />
-    </article>
-
-    <article class="solution-card">
-      <h3>APIs Infrastructure</h3>
-      <p>Integrate money movement into your product.</p>
-      <img src="assets/solution.png" alt="APIs dashboard" />
-    </article>
+  <div class="solutions-grid">
+    <article class="solution-card"><h3>Collections</h3><p>Receive funds through local and cross-border payment methods.</p><img src="assets/transactions.png" alt="Collections" /></article>
+    <article class="solution-card"><h3>Customers</h3><p>Model who money belongs to and who can act on it.</p><img src="assets/transactions.png" alt="Customers" /></article>
+    <article class="solution-card"><h3>Virtual Accounts</h3><p>Account structures without banking complexity.</p><img src="assets/transactions.png" alt="Virtual Accounts" /></article>
+    <article class="solution-card"><h3>Transactions</h3><p>A complete ledger of money movement.</p><img src="assets/transactions.png" alt="Transactions" /></article>
+    <article class="solution-card"><h3>Payout & Settlements</h3><p>Move money out of the system, predictably.</p><img src="assets/transactions.png" alt="Payouts" /></article>
+    <article class="solution-card"><h3>APIs & Infrastructure</h3><p>Integrate money movement into your product.</p><img src="assets/transactions.png" alt="APIs" /></article>
   </div>
 </section>
+
+<section class="platform">
+  <div class="platform-inner">
+    <div class="platform-header">
+      <h2>One platform for global money movement</h2>
+      <p>Puplar provides the infrastructure to manage collections, accounts, settlements, and embedded payments across currencies and regions.</p>
+      <div class="tabs" role="tablist">
+        <button class="tab active" data-tab="virtual-accounts">Virtual Accounts</button>
+        <button class="tab" data-tab="payments">Payments</button>
+        <button class="tab" data-tab="platform-apis">Platform APIs</button>
+      </div>
+    </div>
+    <div class="platform-content" id="platform-content"></div>
+  </div>
+</section>
+
+<section class="values">
+  <div class="values-grid">
+    <div class="value-card">
+      <div class="value-icon">🔒</div>
+      <h3>Operate on infrastructure you can depend on</h3>
+      <p>Puplar provides a stable, compliant foundation for cross-border money movement, with real-time balances and audit-grade transaction records, so your business can operate globally without uncertainty.</p>
+    </div>
+    <div class="value-card">
+      <div class="value-icon">▦</div>
+      <h3>Reduce operational overhead in cross-border finance</h3>
+      <p>Automate collections, settlements, and payouts across currencies and regions. Puplar replaces fragmented banking workflows with a single system of record, reducing reconciliation effort, and the hidden costs of managing multiple providers.</p>
+    </div>
+    <div class="value-card">
+      <div class="value-icon">📊</div>
+      <h3>See how money moves, at every stage</h3>
+      <p>Track inbound funds, settlements, and payouts with clear status and timing, so finance and operations teams can make decisions based on facts, and not assumptions.</p>
+    </div>
+  </div>
+</section>
+
+<section class="faqs" id="faqs">
+  <h2>FAQs</h2>
+  <div class="faq-list">
+    <details class="faq"><summary>Is Puplar a bank?</summary><p>No, Puplar is not a bank. It is a financial infrastructure platform that connects businesses to regulated banking, payment, and settlement rails while providing a unified system to manage those workflows.</p></details>
+    <details class="faq"><summary>Can I collect payments without writing code?</summary><p>Yes, Puplar offers no-code solutions such as payment links and easy-to-use dashboards to help you collect payments without technical integration.</p></details>
+    <details class="faq"><summary>Does Puplar support bulk payouts?</summary><p>Absolutely. Our platform is designed to handle high-volume disbursements and bulk payouts across multiple currencies and regions efficiently.</p></details>
+    <details class="faq"><summary>Can I embed payments directly into my product?</summary><p>Yes, our robust APIs allow you to embed seamless payment experiences directly into your own applications and platforms.</p></details>
+    <details class="faq"><summary>How can I integrate with Puplar?</summary><p>You can integrate via our developer-friendly documentation, which provides SDKs and API references for various programming languages.</p></details>
+  </div>
+</section>
+
+<div class="footer-wrap">
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-logo"><span class="p">P</span>uplar</div>
+          <div class="footer-addr">
+            <p>Kaiser Wilhelm Strasse 73, 12247 Berlin, Germany</p>
+            <p>2A Orji Close, Ada George, by Timeless Supermarket,<br />Port Harcourt, Rivers State</p>
+          </div>
+        </div>
+        <div class="footer-right">
+          <p class="footer-nav-title">Puplar</p>
+          <ul class="footer-nav">
+            <li><a href="#faqs">FAQs</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#community">Community</a></li>
+            <li><a href="#documentation">Documentation</a></li>
+            <li><a href="#products">Products</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© <span id="year"></span> Puplar. All Rights Reserved</p>
+        <div style="display:flex;gap:32px;flex-wrap:wrap">
+          <a href="#privacy">Privacy Policy</a>
+          <span>A product of Akawo Synergy Limited</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
